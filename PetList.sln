@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetList.WebUI", "PetList\PetList.WebUI.csproj", "{0E89F797-87B6-4E90-AC73-1C8766C1E58C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetList.Services", "PetList.Services\PetList.Services.csproj", "{9422FDD3-0088-4EDD-9963-86C38D1097F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetList.Entities", "PetList.Entities\PetList.Entities.csproj", "{D3F1A23F-0AC8-439B-9413-1D0C4A1E9C04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetList.Domain", "PetList.Domain\PetList.Domain.csproj", "{1809CADB-77C0-4D3C-90FA-DAB89293850D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{430DDDA5-D989-459E-8D60-2E75985E9021}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{73F5A3BD-8AD0-430E-948A-26319CD5A866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{E81DAA0B-5B0F-4636-8B97-88211DD641FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resilience", "Resilience", "{8A177024-0ECD-4F9C-BBDC-A0527C2554B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resilience.Http", "BuildingBlocks\Resilience\Resilience.Http\Resilience.Http.csproj", "{47A77748-F374-46D8-9FAE-D5F8C0D17053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthChecks", "{5B534D5A-F101-4F4E-AFA9-4E053AD52D5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.HealthChecks", "BuildingBlocks\HealthChecks\src\Microsoft.Extensions.HealthChecks\Microsoft.Extensions.HealthChecks.csproj", "{A5841869-BA69-4C22-AEA4-66646ACF33A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.HealthChecks", "BuildingBlocks\HealthChecks\src\Microsoft.AspNetCore.HealthChecks\Microsoft.AspNetCore.HealthChecks.csproj", "{AEEDBE7B-A445-45C9-AF06-034AD42720D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E89F797-87B6-4E90-AC73-1C8766C1E58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E89F797-87B6-4E90-AC73-1C8766C1E58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E89F797-87B6-4E90-AC73-1C8766C1E58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E89F797-87B6-4E90-AC73-1C8766C1E58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9422FDD3-0088-4EDD-9963-86C38D1097F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9422FDD3-0088-4EDD-9963-86C38D1097F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9422FDD3-0088-4EDD-9963-86C38D1097F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9422FDD3-0088-4EDD-9963-86C38D1097F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F1A23F-0AC8-439B-9413-1D0C4A1E9C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F1A23F-0AC8-439B-9413-1D0C4A1E9C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F1A23F-0AC8-439B-9413-1D0C4A1E9C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F1A23F-0AC8-439B-9413-1D0C4A1E9C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1809CADB-77C0-4D3C-90FA-DAB89293850D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1809CADB-77C0-4D3C-90FA-DAB89293850D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1809CADB-77C0-4D3C-90FA-DAB89293850D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1809CADB-77C0-4D3C-90FA-DAB89293850D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F5A3BD-8AD0-430E-948A-26319CD5A866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F5A3BD-8AD0-430E-948A-26319CD5A866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F5A3BD-8AD0-430E-948A-26319CD5A866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F5A3BD-8AD0-430E-948A-26319CD5A866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A77748-F374-46D8-9FAE-D5F8C0D17053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A77748-F374-46D8-9FAE-D5F8C0D17053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A77748-F374-46D8-9FAE-D5F8C0D17053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A77748-F374-46D8-9FAE-D5F8C0D17053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5841869-BA69-4C22-AEA4-66646ACF33A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5841869-BA69-4C22-AEA4-66646ACF33A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5841869-BA69-4C22-AEA4-66646ACF33A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5841869-BA69-4C22-AEA4-66646ACF33A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEDBE7B-A445-45C9-AF06-034AD42720D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEDBE7B-A445-45C9-AF06-034AD42720D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEDBE7B-A445-45C9-AF06-034AD42720D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEDBE7B-A445-45C9-AF06-034AD42720D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73F5A3BD-8AD0-430E-948A-26319CD5A866} = {430DDDA5-D989-459E-8D60-2E75985E9021}
+		{8A177024-0ECD-4F9C-BBDC-A0527C2554B6} = {E81DAA0B-5B0F-4636-8B97-88211DD641FF}
+		{47A77748-F374-46D8-9FAE-D5F8C0D17053} = {8A177024-0ECD-4F9C-BBDC-A0527C2554B6}
+		{5B534D5A-F101-4F4E-AFA9-4E053AD52D5A} = {E81DAA0B-5B0F-4636-8B97-88211DD641FF}
+		{A5841869-BA69-4C22-AEA4-66646ACF33A0} = {5B534D5A-F101-4F4E-AFA9-4E053AD52D5A}
+		{AEEDBE7B-A445-45C9-AF06-034AD42720D1} = {5B534D5A-F101-4F4E-AFA9-4E053AD52D5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11EF33FA-AD65-42D8-8F16-820321D5D276}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.3.0" />
+    <PackageReference Include="FluentAssertions" Version="5.3.0" />
+    <PackageReference Include="Moq" Version="4.8.2" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks\Resilience\Resilience.Http\Resilience.Http.csproj" />
+    <ProjectReference Include="..\PetList.Domain\PetList.Domain.csproj" />
+    <ProjectReference Include="..\PetList.Entities\PetList.Entities.csproj" />
+    <ProjectReference Include="..\PetList.Services\PetList.Services.csproj" />
+  </ItemGroup>
+
+</Project>
